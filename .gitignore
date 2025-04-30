@@ -134,3 +134,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+
+# Dataset
+*.xlsx
+*.csv
+Food_Images/
