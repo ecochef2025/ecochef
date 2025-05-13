@@ -37,17 +37,14 @@ jwt = JWTManager(app)
 
 # Load the dataset using a relative path
 try:
-    # Get the directory of the current script (app.py)
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    # Construct the path to the CSV file relative to app.py
     csv_path = os.path.join(base_dir, "cleaned_recipes_with_urls.csv")
+    logger.info(f"Looking for dataset at: {csv_path}")
     df = pd.read_csv(csv_path)
     logger.info("Dataset loaded successfully")
 except Exception as e:
     logger.error(f"Failed to load dataset: {e}")
     raise
-
-# Routes...
 
 @app.route('/register', methods=['POST'])
 def register():
@@ -136,4 +133,4 @@ def feedback():
     return jsonify({'msg': 'Feedback saved'}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True) 
