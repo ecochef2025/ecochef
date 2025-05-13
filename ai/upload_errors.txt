@@ -1,0 +1,6 @@
+Upload error for black-and-white-halvah: Unexpected error - ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Compression error for nan: [Errno 2] No such file or directory: 'F:\\Documents\\Assignment\\7\\Dataset\\Food_Images\\nan.jpg'
+Upload error for grilled-peaches-with-black-pepper-and-basil-lime-syrup-51241460: Unexpected error - ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Upload error for balsamic-glazed-salmon-with-spinach-olives-and-golden-raisins-357270: Unexpected error - ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Upload error for apple-cranberry-crisp-with-polenta-streusel-topping-240747: Unexpected error - ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Upload error for tarragon-caper-egg-salad-sandwiches-with-smoked-salmon-105416: Unexpected error - ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

@@ -1,0 +1,8 @@
+flask
+flask-bcrypt
+flask-jwt-extended
+pymongo
+pandas
+scikit-learn
+flask-cors
+waitress

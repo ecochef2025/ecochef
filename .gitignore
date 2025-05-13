@@ -145,3 +145,15 @@ __pycache__/
 *.xlsx
 *.csv
 Food_Images/
+
+# Python/Flask
+__pycache__/
+*.pyc
+List
+
+# Node.js/React
+node_modules/
+package-lock.json
+
+# Miscellaneous
+backend/
