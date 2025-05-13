@@ -14,7 +14,7 @@ function RecipeSearch() {
     }
     try {
       const response = await axios.post(
-        "http://localhost:5000/recommend",
+        "https://ecochef-backend.onrender.com/recommend",
         { ingredients, dietary },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -28,7 +28,7 @@ function RecipeSearch() {
     const token = localStorage.getItem("token");
     try {
       await axios.post(
-        "http://localhost:5000/like",
+        "https://ecochef-backend.onrender.com/like",
         { recipe_title: recipeTitle, liked },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -42,7 +42,7 @@ function RecipeSearch() {
     const token = localStorage.getItem("token");
     try {
       await axios.post(
-        "http://localhost:5000/feedback",
+        "https://ecochef-backend.onrender.com/feedback",
         { recipe_title: recipeTitle, rating },
         { headers: { Authorization: `Bearer ${token}` } }
       );
