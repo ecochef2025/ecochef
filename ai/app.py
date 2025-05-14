@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY", "81eac43cbb8438fb543404c94a4fe2de860b53d22f816256f15ef9949bd194ab")
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = 3600
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}}, supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": "https://ecochef.vercel.app"}}, supports_credentials=True)
 bcrypt = Bcrypt(app)
 jwt = JWTManager(app)
 
